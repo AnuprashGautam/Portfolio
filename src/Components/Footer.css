@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Footer{
+    background: linear-gradient(0deg, #707073, #ffffff); /* Gradient background */
+    display: flex;
+    flex-direction:column;
+    height:25vh;
+    color: #fff;
+    width: 100vw;
+    font-family: pacifico,cursive;
+}
+
+.Footer-Top-Component
+{
+    display:flex;
+    height:75%;
+    width:100vw;
+}
+
+.Footer-Top-Component .logo
+{
+    display:flex;
+    justify-content:start;
+    color:grey;
+    align-items:start;
+}
+
+
+.Socials {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 20px; /* Space between icons */
+}
+
+.Socials a {
+    color: #000; /* Icon color */
+    font-size: 24px; /* Default icon size */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
+}
+
+.Socials a:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Optional: Specific size adjustments for each icon */
+.Socials .fa-linkedin {
+    font-size: 26px; /* Specific size for LinkedIn icon */
+}
+
+.Socials .fa-instagram {
+    font-size: 28px; /* Specific size for Instagram icon */
+}
+
+.Socials .fa-github {
+    font-size: 24px; /* Specific size for GitHub icon */
+}
+
+.Socials .fa-envelope {
+    font-size: 22px; /* Specific size for Email icon */
+}
+
+
+.Footer-Top-Component .Left-Component
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width:33.33vw;
+}
+
+#name
+{
+    font-family: pacifico,cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: grey;
+}
+
+
+#surname
+{
+    font-family: pacifico,cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.Footer-Top-Component .Middle-Component
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:33.33vw;
+}
+
+#site-map{
+    text-decoration: underline;
+    font-weight:bold;
+    color: grey;
+}
+
+.Footer-Top-Component .Right-Component
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width:33.33vw;
+    
+}
+
+.Footer-Bottom-Component
+{
+    height:25%;
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.request-project-container {
+    display: flex;
+    align-content: center;
+}
+#request-project-button {
+    font-family: pacifico,cursive;
+    background-color: grey;
+    text-size-adjust: 14;
+    color: white;
+    cursor: pointer;
+    width: 12vw;
+    height: 4vh;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+#request-project-button:hover {
+    background-color: rgb(5, 165, 228);
+    color: white;
+}
+
+#email {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 200px;
+    align-content: center;
+}

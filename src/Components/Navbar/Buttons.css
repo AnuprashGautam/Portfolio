@@ -1,0 +1,39 @@
+.Buttons{
+    display: flex;
+    width: 100%
+}
+
+.ButtonCont{
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration:none;
+    font-family: pacifico,cursive;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+
+
+.ButtonCont:hover{
+    font-size: 26px;
+    text-align: center;
+    text-decoration:underline;
+    text-underline-position: under;
+    cursor: pointer;
+    color: white;
+}
+
+#Projects
+{
+    color: rgb(5, 165, 228);
+}
+
+#Projects:hover
+{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-underline-position: under;
+}

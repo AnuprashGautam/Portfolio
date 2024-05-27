@@ -1,0 +1,64 @@
+/* Apply styles to the container of the entire page */
+.wholepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 90vh;
+  width: 80vw;
+  margin-top: 5vh;
+}
+
+/* Apply styles to the left box */
+.leftbox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-bottom: 140px;
+}
+
+/* Apply styles to the right box */
+.rightbox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  display: grid;
+  gap: 1rem;
+}
+
+#who {
+  font-family: "pacifico", cursive;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: orange;
+}
+
+#cont {
+  font-family: "pacifico", cursive;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(78, 78, 78);
+}
+
+/* Apply styles to the photo */
+#Photo {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  width: 50vh;
+}
+
+#Sign {
+  height: 75px;
+  width: 120px;
+  padding-left: 35%;
+}
+
+

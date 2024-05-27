@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Navbar {
+    background: linear-gradient(0deg, #ffffff, #555557); /* Gradient background */
+    display: flex;
+    flex-direction: row;;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 17vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 1rem 2rem;
+}
+
+.LNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: pacific,cursive;
+    align-items:center;
+    width: 15%;
+}
+
+.RNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+#Name{
+    font-family: pacifico,cursive;
+    font-size: 30px;
+    color: rgb(97, 97, 97);
+}
+
+#Name:hover {
+    text-align: center;
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 38px;
+    color:white
+}
+
+#Surname{
+    font-family: pacifico,cursive;
+    font-size: 30px;
+    color: rgba(255, 178, 34, 0.959);
+}
+
+#Surname:hover {
+    text-align: center;
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 38px;
+    color:white
+}
