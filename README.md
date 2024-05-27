@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Hey there! 🙋‍♂️ I am Anuprash Gautam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio website made by me showcasing my exceptional work in the field of Artificial Intelligence, Web and App development. I will keep on updating this repo as I build more projects and harness more skills.
+
+# Skills used 
+
+<img height=100 width=100 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png?20170517184425" alt="html"></img>
+<img height=100 width=70 src="https://brandslogos.com/wp-content/uploads/images/css-logo.png" alt="css"></img>
+<img height=100 width=180 src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo-500x281.png" alt="js"></img>
+<img height=100 width=110 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="react"></img>
 
 ## Available Scripts
 
